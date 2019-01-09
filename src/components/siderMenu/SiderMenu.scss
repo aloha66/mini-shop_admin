@@ -1,0 +1,19 @@
+@import 'assets/variables.scss';
+
+.sidernav {
+    background: $siderNavBlack;
+    &-item {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+    }
+    &-icon {
+        display: block;
+        padding: 10px;
+    }
+    .selected {
+        background: $black;
+        color: $blue;
+    }
+}

@@ -1,0 +1,30 @@
+.trade-order-list__filter-field {
+    margin-right: 10px;
+    display: inline-block;
+  
+    &.feedback-change-line-style {
+      @media (max-width: 1050px) {
+        margin: 20px 0 0 50px;
+      }
+    }
+  
+    &.buyway-change-line-style {
+      @media (max-width: 1050px) {
+        margin: 20px 0 0;
+      }
+    }
+  }
+  
+  .trade-order-list__filter-label {
+    width: 100px;
+    text-align: right;
+  }
+  
+  .trade-order-list__filter-content {
+    display: inline-block;
+    margin-right: 0;
+  
+    .zent-datetime-picker {
+      background: transparent;
+    }
+  }
