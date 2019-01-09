@@ -1,5 +1,5 @@
 import React,{lazy} from 'react';
-// import Goods from 'views/goods/goods'
+
 const Goods = lazy(() => import('views/goods/goods'))
 const User = lazy(() => import('views/user/user'))
 const Order = lazy(() => import('views/order/order'))

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import OrderFilter from "components/order/OrderFilter";
 import OrderList from "components/order/OrderList";
+import { withRouter } from "react-router"
 
 import "./order.scss";
 
@@ -14,6 +15,13 @@ class Order extends Component {
     chooseDays: 0,
     state: 0
   };
+  constructor(props) {
+    super(props)
+    
+  }
+  componentDidMount() {
+    console.log(this)
+  }
 
   handleChangeDate(payload) {
     this.setState({...payload});
@@ -34,4 +42,4 @@ class Order extends Component {
   }
 }
 
-export default Order;
+export default withRouter(Order);
