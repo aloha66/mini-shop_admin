@@ -28,3 +28,12 @@
       background: transparent;
     }
   }
+
+
+  .mf {
+    display: flex;
+    &-item {
+      width: 200px;
+      margin: 0 5px;
+    }
+  }

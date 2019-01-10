@@ -3,6 +3,11 @@
 html,body {
     height: 100%;
 }
+@for $i from 1 to 5 {
+    h#{$i} {
+        font-weight: normal;
+    }
+}
 #root {
     height: 100%;
 }
@@ -10,8 +15,6 @@ html,body {
     display: flex;
     height: 100%;
 }
-
-
 
 .main {
     // flex: 1;

@@ -1,0 +1,8 @@
+.gi {
+    display: flex;
+    flex-wrap: wrap;
+    &-item {
+        display: flex;
+    align-items: center
+    }
+}

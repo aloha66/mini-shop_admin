@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Input, Select, Button, DatePicker, DateRangeQuickPicker } from "zent";
+import { Input, Select, Button, DateRangeQuickPicker } from "zent";
 import Field from "components/field/Field";
 import { orderTpye, orderSearchType } from "utils/constants";
 
@@ -48,7 +48,6 @@ class OrderFliter extends Component {
             value={order_label_value}
             onChange={this.handleChange}
             className="order-input"
-            name="order_label_value"
             type="text"
           />
         </div>

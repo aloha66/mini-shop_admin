@@ -1,5 +1,5 @@
 import React, { Component, Suspense } from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SiderMenu from "components/siderMenu/SiderMenu";
 import routes from "./router";
 import "./App.scss";
@@ -8,6 +8,9 @@ class App extends Component {
   handleSwitchTab(index) {
     routes.map(item => (item.selected = false));
     routes[index].selected = true;
+  }
+  componentDidMount() {
+    
   }
 
 

@@ -92,7 +92,7 @@ class OrderList extends Component {
     return (
       <Table
         columns={columns}
-        datasets={[]}
+        datasets={datasets}
         rowKey="item_id"
         onChange={this.onChange.bind(this)}
         pageInfo={{
